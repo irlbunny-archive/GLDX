@@ -18,9 +18,6 @@ extern "C" {
 
 GLDXAPI HGLRC WINAPI _wglCreateContext(HDC);
 GLDXAPI BOOL  WINAPI _wglDeleteContext(HGLRC);
-GLDXAPI HGLRC WINAPI _wglGetCurrentContext(VOID);
-GLDXAPI HDC   WINAPI _wglGetCurrentDC(VOID);
-GLDXAPI PROC  WINAPI _wglGetProcAddress(LPCSTR);
 GLDXAPI BOOL  WINAPI _wglMakeCurrent(HDC, HGLRC);
 
 #ifdef __cplusplus

@@ -1,0 +1,5 @@
+LIBRARY OPENGL32
+EXPORTS
+    wglCreateContext=_wglCreateContext
+    wglDeleteContext=_wglDeleteContext
+    wglMakeCurrent=_wglMakeCurrent
